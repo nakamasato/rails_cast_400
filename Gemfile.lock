@@ -1,26 +1,26 @@
 GIT
-  remote: https://github.com/rails/arel.git
-  revision: 4524c7f8a8225677893e0731f40993de17d4babc
+  remote: git://github.com/rails/arel.git
+  revision: 9e53488b1d8d535182a989bd38fbb171aebbeef5
   specs:
-    arel (4.0.0.20130418133826)
+    arel (4.0.1.20131022201058)
 
 GIT
-  remote: https://github.com/rails/coffee-rails.git
-  revision: c812f4da1f5adc226ef834b57c2498467761cb2c
+  remote: git://github.com/rails/coffee-rails.git
+  revision: 471ae515b57d484d494eba7e0a1f1016ebcc57e4
   specs:
-    coffee-rails (4.0.0)
+    coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
 
 GIT
-  remote: https://github.com/rails/rails.git
-  revision: 0053b2a1c497832da23f6dcb3ea628f3c8bb4d30
+  remote: git://github.com/rails/rails.git
+  revision: c59e902671ebf8443a90a2dbed08e98e1a642ebb
   specs:
     actionmailer (4.1.0.beta)
       actionpack (= 4.1.0.beta)
+      actionview (= 4.1.0.beta)
       mail (~> 2.5.4)
     actionpack (4.1.0.beta)
-      actionview (= 4.1.0.beta)
       activesupport (= 4.1.0.beta)
       rack (~> 1.5.2)
       rack-test (~> 0.6.2)
@@ -46,6 +46,7 @@ GIT
       actionmailer (= 4.1.0.beta)
       actionpack (= 4.1.0.beta)
       actionview (= 4.1.0.beta)
+      activemodel (= 4.1.0.beta)
       activerecord (= 4.1.0.beta)
       activesupport (= 4.1.0.beta)
       bundler (>= 1.3.0, < 2.0)
@@ -58,19 +59,19 @@ GIT
       thor (>= 0.18.1, < 2.0)
 
 GIT
-  remote: https://github.com/rails/sass-rails.git
-  revision: 31f756f208ee71af935454ab4dfb34786d15e891
+  remote: git://github.com/rails/sass-rails.git
+  revision: 0fcdff806511d0cfaf0bf379f3530ad11cb16f5c
   specs:
-    sass-rails (4.0.0)
+    sass-rails (4.0.1)
       railties (>= 4.0.0, < 5.0)
-      sass (>= 3.1.10)
+      sass (>= 3.2.0)
       sprockets-rails (~> 2.0.0)
 
 GIT
-  remote: https://github.com/rails/sprockets-rails.git
-  revision: 9a85974282deb7e1e6ef65649f8b2ce3401aad3b
+  remote: git://github.com/rails/sprockets-rails.git
+  revision: 6a03c314bec3a84a3f6c8076bf058b33ed672a13
   specs:
-    sprockets-rails (2.0.0)
+    sprockets-rails (2.0.1)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (~> 2.8)
@@ -78,7 +79,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    atomic (1.1.12)
+    atomic (1.1.14)
     builder (3.1.4)
     coffee-script (2.2.0)
       coffee-script-source
@@ -88,7 +89,7 @@ GEM
     execjs (1.4.0)
       multi_json (~> 1.0)
     hike (1.2.3)
-    i18n (0.6.4)
+    i18n (0.6.5)
     jbuilder (1.5.0)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2.0)
@@ -99,8 +100,8 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    mime-types (1.23)
-    minitest (5.0.6)
+    mime-types (1.25)
+    minitest (5.0.8)
     multi_json (1.7.8)
     pg (0.16.0)
     polyglot (0.3.3)
@@ -110,7 +111,7 @@ GEM
     rake (10.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
-    sass (3.2.10)
+    sass (3.2.12)
     sdoc (0.3.20)
       json (>= 1.1.3)
       rdoc (~> 3.10)
@@ -120,15 +121,15 @@ GEM
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
     thor (0.18.1)
-    thread_safe (0.1.2)
+    thread_safe (0.1.3)
       atomic
     tilt (1.4.1)
-    treetop (1.4.14)
+    treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
     turbolinks (1.3.0)
       coffee-rails
-    tzinfo (0.3.37)
+    tzinfo (0.3.38)
     uglifier (2.1.2)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
